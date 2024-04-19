@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="@string/home"
+        android:id="@+id/btm_home"
+        android:icon="@drawable/baseline_home_24"/>
+    <item
+        android:title="@string/location"
+        android:id="@+id/btm_location"
+        android:icon="@drawable/baseline_location_on_24"/>
+    <item
+        android:title="@string/add_request"
+        android:id="@+id/btm_add"
+        android:icon="@drawable/baseline_add_24"/>
+    <item
+        android:title="@string/profile"
+        android:id="@+id/btm_profile"
+        android:icon="@drawable/baseline_person_pin_24"/>
+</menu>

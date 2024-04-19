@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "890303960330",
+    "firebase_url": "https://lton-aa65b-default-rtdb.firebaseio.com",
+    "project_id": "lton-aa65b",
+    "storage_bucket": "lton-aa65b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890303960330:android:19fe8a1c31488db97dd6f3",
+        "android_client_info": {
+          "package_name": "com.utar.Iton"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVPUH-uxqu7fFIOgwLbLVWKgtXx3GZAeE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890303960330:android:fec8108516f37a927dd6f3",
+        "android_client_info": {
+          "package_name": "com.utar.lton"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVPUH-uxqu7fFIOgwLbLVWKgtXx3GZAeE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/add_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:text="Add New Activity\nFor Passenger"
+            android:layout_marginBottom="20dp"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+            android:textSize="30dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="62dp"
+
+            android:fontFamily="casual"
+            android:text="Name:"
+            android:textSize="17dp" />
+
+        <EditText
+            android:id="@+id/enterName"
+            android:layout_width="288dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:editable="true"
+            android:hint="Enter Name"
+            android:textSize="14dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="62dp"
+            android:fontFamily="casual"
+            android:text="Mobile Number"
+            android:textSize="17dp" />
+
+        <EditText
+            android:id="@+id/enterContact"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:editable="true"
+            android:hint="Phone Number(012-3456789/012-34567890)"
+            android:inputType="phone|number"
+            android:textSize="14dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/errorMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="62dp"
+            android:fontFamily="casual"
+            android:textSize="10dp"
+            android:text=""
+            />
+
+        <TextView
+            android:id="@+id/destination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="62dp"
+            android:fontFamily="casual"
+            android:text="Destination"
+            android:textSize="17dp" />
+
+        <EditText
+            android:id="@+id/enterDestination"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:editable="true"
+            android:hint="Where you want to go"
+            android:textSize="14dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="62dp"
+            android:fontFamily="casual"
+            android:text="Date and Time:"
+            android:textSize="17dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/datePickerButton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="62dp"
+                android:background="@null"
+                android:padding="1dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/calender" />
+
+            <TextView
+                android:id="@+id/selectedDateTimeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:fontFamily="sans-serif-medium"
+                android:hint="Selected Date and Time: Not set"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="62dp"
+            android:fontFamily="casual"
+            android:text="Estimated Price"
+            android:textSize="17dp" />
+
+        <EditText
+            android:id="@+id/enterPrice"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:editable="true"
+            android:hint="Enter the price"
+            android:inputType="numberDecimal"
+            android:textSize="14dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/priceMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="62dp"
+            android:fontFamily="casual"
+            android:textSize="10dp"
+            android:text=""
+            />
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
+            android:text="Submit"
+            />
+
+        <TextView
+            android:id="@+id/successful"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/passenger"
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/white"
+                android:text="Passenger Activity"
+                android:textColor="@color/black"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="60dp"
+                android:layout_marginStart="30dp"
+                />
+
+            <Button
+                android:id="@+id/driver"
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="50dp"
+                android:backgroundTint="@color/black"
+                android:text="Driver Activity" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
